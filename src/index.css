@@ -24,11 +24,24 @@ td:nth-child(2) {
   max-width: 300px;
 }
 
-td.active{
+td.active {
   background-color: lightgreen;
 }
 
-.result{
+.result {
   display: flex;
   text-align: start;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: 30px;
 }
