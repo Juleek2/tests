@@ -25,7 +25,7 @@ function App() {
       setData(undefined);
       return;
     }
-    fetch(`/data/${active}`)
+    fetch(`/Juleer2.github.io/data/${active}`)
       .then((d) => d.json())
       .then((d) => setData(d));
   }, [active]);
